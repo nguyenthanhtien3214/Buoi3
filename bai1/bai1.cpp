@@ -41,7 +41,7 @@ void max_in_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 }
 
-// Hàm xuất các phần tử thuộc các đường biên
+/// Hàm xuất các phần tử thuộc các đường biên
 void border_elements(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac phan tu thuoc cac duong bien:\n");
     for (int j = 0; j < n; j++) {
@@ -55,7 +55,7 @@ void border_elements(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
     for (int i = m - 2; i > 0; i--) {
         printf("%d ", a[i][0]); 
-    }
+    }//
     printf("\n");
 }
 
