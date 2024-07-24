@@ -196,7 +196,7 @@ int most_frequent_value(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     return most_frequent;
 }//
 
-// Hàm tìm chữ số xuất hiện nhiều nhất trong ma trận
+/// Hàm tìm chữ số xuất hiện nhiều nhất trong ma trận
 int most_frequent_digit(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     int digit_count[10] = { 0 };
 
@@ -220,7 +220,7 @@ int most_frequent_digit(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 
     return most_frequent_digit;
-}
+}//
 
 // Hàm liệt kê các cột có tổng nhỏ nhất trong ma trận
 void columns_with_min_sum(int a[MAX_ROWS][MAX_COLS], int m, int n) {
