@@ -37,7 +37,7 @@ void print_odd_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 }
 
-// Hàm tìm phần tử lớn nhất trên biên của ma trận
+/// Hàm tìm phần tử lớn nhất trên biên của ma trận
 int max_border_element(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     int max = a[0][0];
     for (int j = 0; j < n; j++) {
@@ -49,7 +49,7 @@ int max_border_element(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         if (a[i][n - 1] > max) max = a[i][n - 1]; 
     }
     return max;
-}
+}//
 
 // Hàm kiểm tra xem một số có chứa chữ số 2 hay không
 int contains_digit_2(int num) {
