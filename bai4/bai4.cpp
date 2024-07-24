@@ -92,7 +92,7 @@ void sort_matrix_columns(int a[MAX_SIZE][MAX_SIZE], int n) {
     }
 }//
 
-// Hàm sắp xếp các đường chéo chính và các đường chéo song song với đường chéo chính tăng 
+/// Hàm sắp xếp các đường chéo chính và các đường chéo song song với đường chéo chính tăng 
 void sort_all_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
     for (int d = 0; d < n; d++) {
         int temp[MAX_SIZE];
@@ -143,7 +143,7 @@ void sort_all_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm di chuyển các phần tử trong ma trận sao cho các phần tử chẵn nằm ở các dòng đầu mảng,các phần tử lẻ nằm ở các dòng cuối mảng
 void rearrange_matrix_even_odd(int a[MAX_SIZE][MAX_SIZE], int n) {
