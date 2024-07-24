@@ -46,7 +46,7 @@ void sort_secondary_diagonal(int a[MAX_SIZE][MAX_SIZE], int n, int ascending) {
     }
 }//
 
-// Hàm sắp xếp ma trận các dòng có chỉ số lẻ thì tăng , còn các dòng có chỉ số chẵn thì giảm 
+/// Hàm sắp xếp ma trận các dòng có chỉ số lẻ thì tăng , còn các dòng có chỉ số chẵn thì giảm 
 void sort_matrix_rows(int a[MAX_SIZE][MAX_SIZE], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n - 1; j++) {
@@ -67,7 +67,7 @@ void sort_matrix_rows(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm sắp xếp ma trận các cột có chỉ số lẻ thì giảm, còn các cột có chỉ số chẵn thì tăng 
 void sort_matrix_columns(int a[MAX_SIZE][MAX_SIZE], int n) {
