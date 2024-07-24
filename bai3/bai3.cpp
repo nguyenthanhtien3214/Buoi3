@@ -17,7 +17,7 @@ void generate_and_print_matrix(int a[MAX_ROWS][MAX_COLS], int m, int n, int k) {
     }
 }
 
-// Hàm xuất các cột chỉ chứa số lẻ
+/// Hàm xuất các cột chỉ chứa số lẻ
 void print_odd_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac cot chi chua so le:\n");
     for (int j = 0; j < n; j++) {
@@ -33,7 +33,7 @@ void print_odd_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
                 printf("%d ", a[i][j]);
             }
             printf("\n");
-        }
+        }//
     }
 }
 
