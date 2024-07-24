@@ -5,9 +5,9 @@
 #define MAX_ROWS 100
 #define MAX_COLS 100
 
-// Hàm tạo và xuất ma trận a chứa các phần tử ngẫu nhiên từ 0 đến k
+/// Hàm tạo và xuất ma trận a chứa các phần tử ngẫu nhiên từ 0 đến k
 void generate_and_print_matrix(int a[MAX_ROWS][MAX_COLS], int m, int n, int k) {
-    srand(time(0)); 
+    srand(time(0));
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             a[i][j] = rand() % (k + 1);
