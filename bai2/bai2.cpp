@@ -4,7 +4,7 @@
 
 #define MAX_SIZE 100
 
-// Hàm tạo và xuất ma trận vuông a chứa các phần tử ngẫu nhiên có cấp n >= 5
+/// Hàm tạo và xuất ma trận vuông a chứa các phần tử ngẫu nhiên có cấp n >= 5
 void generate_and_print_square_matrix(int a[MAX_SIZE][MAX_SIZE], int n, int k) {
     srand(time(0)); 
     for (int i = 0; i < n; i++) {
@@ -13,7 +13,7 @@ void generate_and_print_square_matrix(int a[MAX_SIZE][MAX_SIZE], int n, int k) {
             printf("%d ", a[i][j]);
         }
         printf("\n");
-    }
+    }//
 }
 
 // Hàm xuất các phần tử trên đường chéo chính
