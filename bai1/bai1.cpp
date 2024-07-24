@@ -17,7 +17,7 @@ void generate_and_print_matrix(int a[MAX_ROWS][MAX_COLS], int m, int n, int k) {
     }
 }
 
-// Hàm tính và xuất tổng giá trị từng dòng
+/// Hàm tính và xuất tổng giá trị từng dòng
 void sum_of_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     for (int i = 0; i < m; i++) {
         int sum = 0;
