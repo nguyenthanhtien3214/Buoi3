@@ -177,7 +177,7 @@ void decreasing_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }//
 
-// Hàm tìm giá trị xuất hiện nhiều nhất trong ma trận
+/// Hàm tìm giá trị xuất hiện nhiều nhất trong ma trận
 int most_frequent_value(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     int freq[MAX_ROWS * MAX_COLS] = { 0 };
     int max_count = 0;
@@ -194,7 +194,7 @@ int most_frequent_value(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 
     return most_frequent;
-}
+}//
 
 // Hàm tìm chữ số xuất hiện nhiều nhất trong ma trận
 int most_frequent_digit(int a[MAX_ROWS][MAX_COLS], int m, int n) {
