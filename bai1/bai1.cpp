@@ -59,7 +59,7 @@ void border_elements(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }
 
-// Hàm xuất các phần tử cực đại
+/// Hàm xuất các phần tử cực đại
 void local_maxima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac phan tu cuc dai:\n");
     for (int i = 1; i < m - 1; i++) {
@@ -69,7 +69,7 @@ void local_maxima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
             }
         }
     }
-    printf("\n");
+    printf("\n");//
 }
 
 // Hàm xuất các phần tử hoàng hậu
