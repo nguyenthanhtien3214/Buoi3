@@ -72,7 +72,7 @@ void local_maxima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");//
 }
 
-// Hàm xuất các phần tử hoàng hậu
+/// Hàm xuất các phần tử hoàng hậu
 void queen_elements(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac phan tu hoang hau:\n");
     for (int i = 0; i < m; i++) {
@@ -88,7 +88,7 @@ void queen_elements(int a[MAX_ROWS][MAX_COLS], int m, int n) {
                 if (a[i][y] > a[i][j]) {
                     is_queen = 0;
                     break;
-                }
+                }//
             }
             if (is_queen) {
                 printf("%d ", a[i][j]);
