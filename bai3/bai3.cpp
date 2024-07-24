@@ -51,7 +51,7 @@ int max_border_element(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     return max;
 }//
 
-// Hàm kiểm tra xem một số có chứa chữ số 2 hay không
+/// Hàm kiểm tra xem một số có chứa chữ số 2 hay không
 int contains_digit_2(int num) {
     while (num > 0) {
         if (num % 10 == 2) return 1;
@@ -71,7 +71,7 @@ int count_elements_with_digit_2(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
     }
     return count;
-}
+}//
 
 // Hàm xuất các phần tử cực tiểu
 void local_minima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
