@@ -130,7 +130,7 @@ void sort_matrix_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 }//
 
-// Hàm kiểm tra ma trận có giảm dần theo cột và dòng
+/// Hàm kiểm tra ma trận có giảm dần theo cột và dòng
 int is_decreasing_zigzag(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
@@ -139,7 +139,7 @@ int is_decreasing_zigzag(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
     }
     return 1;
-}
+}//
 
 // Hàm liệt kê chỉ số các dòng chứa toàn giá trị chẵn
 void even_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
