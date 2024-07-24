@@ -86,7 +86,7 @@ void local_minima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }//
 
-// Hàm sắp xếp ma trận theo yêu cầu bài 3.5
+/// Hàm sắp xếp ma trận theo yêu cầu bài 3.5
 void sort_matrix_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n - 1; j++) {
@@ -106,7 +106,7 @@ void sort_matrix_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm sắp xếp ma trận theo yêu cầu bài 3.6
 void sort_matrix_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
