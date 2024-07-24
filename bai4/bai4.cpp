@@ -16,7 +16,7 @@ void generate_and_print_square_matrix(int a[MAX_SIZE][MAX_SIZE], int n, int k) {
     }
 }
 
-// Hàm sắp xếp đường chéo phụ tăng /giảm 
+/// Hàm sắp xếp đường chéo phụ tăng /giảm 
 void sort_secondary_diagonal(int a[MAX_SIZE][MAX_SIZE], int n, int ascending) {
     int temp[MAX_SIZE];
     for (int i = 0; i < n; i++) {
@@ -44,7 +44,7 @@ void sort_secondary_diagonal(int a[MAX_SIZE][MAX_SIZE], int n, int ascending) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm sắp xếp ma trận các dòng có chỉ số lẻ thì tăng , còn các dòng có chỉ số chẵn thì giảm 
 void sort_matrix_rows(int a[MAX_SIZE][MAX_SIZE], int n) {
