@@ -141,7 +141,7 @@ int is_decreasing_zigzag(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     return 1;
 }//
 
-// Hàm liệt kê chỉ số các dòng chứa toàn giá trị chẵn
+/// Hàm liệt kê chỉ số các dòng chứa toàn giá trị chẵn
 void even_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Chi so cac dong chua toan gia tri chan:\n");
     for (int i = 0; i < m; i++) {
@@ -157,7 +157,7 @@ void even_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
     }
     printf("\n");
-}
+}//
 
 // Hàm liệt kê các dòng chứa giá trị giảm dần
 void decreasing_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
