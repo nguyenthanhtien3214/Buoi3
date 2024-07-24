@@ -78,7 +78,7 @@ void sort_matrix_zigzag(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
     }//
 
-    // Gán lại các phần tử đã sắp xếp vào ma trận theo kiểu zic-zac
+    /// Gán lại các phần tử đã sắp xếp vào ma trận theo kiểu zic-zac
     index = 0;
     for (int i = 0; i < n; i++) {
         if (i % 2 == 0) {
@@ -99,7 +99,7 @@ void sort_matrix_zigzag(int a[MAX_SIZE][MAX_SIZE], int n) {
             printf("%d ", a[i][j]);
         }
         printf("\n");
-    }
+    }//
 }
 
 // Hàm sắp xếp đường chéo chính tăng dần từ trên xuống dưới
