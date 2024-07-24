@@ -57,7 +57,7 @@ int max_upper_triangle(int a[MAX_SIZE][MAX_SIZE], int n) {
     return max;
 }//
 
-// Hàm sắp xếp ma trận tăng dần theo kiểu zic-zac
+/// Hàm sắp xếp ma trận tăng dần theo kiểu zic-zac
 void sort_matrix_zigzag(int a[MAX_SIZE][MAX_SIZE], int n) {
     int temp[MAX_SIZE * MAX_SIZE];
     int index = 0;
@@ -76,7 +76,7 @@ void sort_matrix_zigzag(int a[MAX_SIZE][MAX_SIZE], int n) {
                 temp[j] = tmp;
             }
         }
-    }
+    }//
 
     // Gán lại các phần tử đã sắp xếp vào ma trận theo kiểu zic-zac
     index = 0;
