@@ -28,7 +28,7 @@ void sum_of_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 }
 
-// Hàm xuất phần tử lớn nhất trên từng cột
+/// Hàm xuất phần tử lớn nhất trên từng cột
 void max_in_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     for (int j = 0; j < n; j++) {
         int max = a[0][j];
@@ -36,7 +36,7 @@ void max_in_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
             if (a[i][j] > max) {
                 max = a[i][j];
             }
-        }
+        }//
         printf("Phan tu lon nhat cot %d: %d\n", j, max);
     }
 }
