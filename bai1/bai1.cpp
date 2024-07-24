@@ -98,7 +98,7 @@ void queen_elements(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }
 
-// Hàm xuất các phần tử là điểm yên ngựa
+/// Hàm xuất các phần tử là điểm yên ngựa
 void saddle_points(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac phan tu la diem yen ngua:\n");
     for (int i = 0; i < m; i++) {
@@ -119,7 +119,7 @@ void saddle_points(int a[MAX_ROWS][MAX_COLS], int m, int n) {
             if (is_saddle) {
                 printf("%d ", a[i][j]);
             }
-        }
+        }//
     }
     printf("\n");
 }
