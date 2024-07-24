@@ -144,7 +144,7 @@ void even_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 }
 
-// Hàm sắp xếp mảng a tăng theo từng dòng
+/// Hàm sắp xếp mảng a tăng theo từng dòng
 void sort_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n - 1; j++) {
@@ -163,7 +163,7 @@ void sort_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
             printf("%d ", a[i][j]);
         }
         printf("\n");
-    }
+    }//
 }
 
 int main() {
