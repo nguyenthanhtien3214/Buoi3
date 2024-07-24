@@ -222,7 +222,7 @@ int most_frequent_digit(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     return most_frequent_digit;
 }//
 
-// Hàm liệt kê các cột có tổng nhỏ nhất trong ma trận
+/// Hàm liệt kê các cột có tổng nhỏ nhất trong ma trận
 void columns_with_min_sum(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     int min_sum = 0;
     for (int i = 0; i < m; i++) {
@@ -250,7 +250,7 @@ void columns_with_min_sum(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
     }
     printf("\n");
-}
+}//
 
 // Hàm hoán vị hai cột i và j trong ma trận
 void swap_columns(int a[MAX_ROWS][MAX_COLS], int m, int i, int j) {
