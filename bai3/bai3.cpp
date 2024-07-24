@@ -159,7 +159,7 @@ void even_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }//
 
-// Hàm liệt kê các dòng chứa giá trị giảm dần
+/// Hàm liệt kê các dòng chứa giá trị giảm dần
 void decreasing_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Chi so cac dong chua gia tri giam dan:\n");
     for (int i = 0; i < m; i++) {
@@ -175,7 +175,7 @@ void decreasing_rows_indices(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
     }
     printf("\n");
-}
+}//
 
 // Hàm tìm giá trị xuất hiện nhiều nhất trong ma trận
 int most_frequent_value(int a[MAX_ROWS][MAX_COLS], int m, int n) {
