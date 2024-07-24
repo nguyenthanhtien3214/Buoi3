@@ -102,7 +102,7 @@ void sort_matrix_zigzag(int a[MAX_SIZE][MAX_SIZE], int n) {
     }//
 }
 
-// Hàm sắp xếp đường chéo chính tăng dần từ trên xuống dưới
+/// Hàm sắp xếp đường chéo chính tăng dần từ trên xuống dưới
 void sort_main_diagonal(int a[MAX_SIZE][MAX_SIZE], int n) {
     int temp[MAX_SIZE];
     for (int i = 0; i < n; i++) {
@@ -130,7 +130,7 @@ void sort_main_diagonal(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
         printf("\n");
     }
-}
+}//
 
 int main() {
     int a[MAX_SIZE][MAX_SIZE];
