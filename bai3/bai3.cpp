@@ -73,7 +73,7 @@ int count_elements_with_digit_2(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     return count;
 }//
 
-// Hàm xuất các phần tử cực tiểu
+/// Hàm xuất các phần tử cực tiểu
 void local_minima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac phan tu cuc tieu:\n");
     for (int i = 1; i < m - 1; i++) {
@@ -84,7 +84,7 @@ void local_minima(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
     }
     printf("\n");
-}
+}//
 
 // Hàm sắp xếp ma trận theo yêu cầu bài 3.5
 void sort_matrix_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
