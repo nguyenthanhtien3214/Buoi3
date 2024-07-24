@@ -180,7 +180,7 @@ void rearrange_matrix_even_odd(int a[MAX_SIZE][MAX_SIZE], int n) {
     }
 }//
 
-// Hàm kiểm tra ma trận có đối xứng nhau qua đường chéo chính hay không
+/// Hàm kiểm tra ma trận có đối xứng nhau qua đường chéo chính hay không
 int is_symmetric_across_main_diagonal(int a[MAX_SIZE][MAX_SIZE], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < i; j++) {
@@ -190,7 +190,7 @@ int is_symmetric_across_main_diagonal(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
     }
     return 1;
-}
+}//
 
 int main() {
     int a[MAX_SIZE][MAX_SIZE];
