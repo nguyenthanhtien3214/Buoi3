@@ -145,7 +145,7 @@ void sort_all_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
     }
 }//
 
-// Hàm di chuyển các phần tử trong ma trận sao cho các phần tử chẵn nằm ở các dòng đầu mảng,các phần tử lẻ nằm ở các dòng cuối mảng
+/// Hàm di chuyển các phần tử trong ma trận sao cho các phần tử chẵn nằm ở các dòng đầu mảng,các phần tử lẻ nằm ở các dòng cuối mảng
 void rearrange_matrix_even_odd(int a[MAX_SIZE][MAX_SIZE], int n) {
     int even[MAX_SIZE * MAX_SIZE], odd[MAX_SIZE * MAX_SIZE];
     int even_count = 0, odd_count = 0;
@@ -178,7 +178,7 @@ void rearrange_matrix_even_odd(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm kiểm tra ma trận có đối xứng nhau qua đường chéo chính hay không
 int is_symmetric_across_main_diagonal(int a[MAX_SIZE][MAX_SIZE], int n) {
