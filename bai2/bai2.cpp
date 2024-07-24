@@ -44,7 +44,7 @@ void print_parallel_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
     }//
 }
 
-// Hàm tìm phần tử max thuộc tam giác trên của đường chéo chính
+/// Hàm tìm phần tử max thuộc tam giác trên của đường chéo chính
 int max_upper_triangle(int a[MAX_SIZE][MAX_SIZE], int n) {
     int max = a[0][0];
     for (int i = 0; i < n; i++) {
@@ -55,7 +55,7 @@ int max_upper_triangle(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
     }
     return max;
-}
+}//
 
 // Hàm sắp xếp ma trận tăng dần theo kiểu zic-zac
 void sort_matrix_zigzag(int a[MAX_SIZE][MAX_SIZE], int n) {
