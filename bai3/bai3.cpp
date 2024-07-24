@@ -252,7 +252,7 @@ void columns_with_min_sum(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }//
 
-// Hàm hoán vị hai cột i và j trong ma trận
+/// Hàm hoán vị hai cột i và j trong ma trận
 void swap_columns(int a[MAX_ROWS][MAX_COLS], int m, int i, int j) {
     for (int row = 0; row < m; row++) {
         int temp = a[row][i];
@@ -268,7 +268,7 @@ void swap_rows(int a[MAX_ROWS][MAX_COLS], int n, int k, int l) {
         a[k][col] = a[l][col];
         a[l][col] = temp;
     }
-}
+}//
 
 int main() {
     int a[MAX_ROWS][MAX_COLS];
