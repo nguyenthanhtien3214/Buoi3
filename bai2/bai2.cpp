@@ -16,16 +16,16 @@ void generate_and_print_square_matrix(int a[MAX_SIZE][MAX_SIZE], int n, int k) {
     }//
 }
 
-// Hàm xuất các phần tử trên đường chéo chính
+/// Hàm xuất các phần tử trên đường chéo chính
 void print_main_diagonal(int a[MAX_SIZE][MAX_SIZE], int n) {
     printf("Cac phan tu tren duong cheo chinh:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", a[i][i]);
     }
     printf("\n");
-}
+}//
 
-// Hàm xuất các phần tử thuộc đường chéo song song với đường chéo chính
+/// Hàm xuất các phần tử thuộc đường chéo song song với đường chéo chính
 void print_parallel_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
     printf("Cac phan tu thuoc duong cheo song song voi duong cheo chinh:\n");
 
@@ -41,7 +41,7 @@ void print_parallel_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
             printf("%d ", a[i + d][i]);
         }
         printf("\n");
-    }
+    }//
 }
 
 // Hàm tìm phần tử max thuộc tam giác trên của đường chéo chính
