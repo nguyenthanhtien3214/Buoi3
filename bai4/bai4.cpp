@@ -69,7 +69,7 @@ void sort_matrix_rows(int a[MAX_SIZE][MAX_SIZE], int n) {
     }
 }//
 
-// Hàm sắp xếp ma trận các cột có chỉ số lẻ thì giảm, còn các cột có chỉ số chẵn thì tăng 
+/// Hàm sắp xếp ma trận các cột có chỉ số lẻ thì giảm, còn các cột có chỉ số chẵn thì tăng 
 void sort_matrix_columns(int a[MAX_SIZE][MAX_SIZE], int n) {
     for (int j = 0; j < n; j++) {
         for (int i = 0; i < n - 1; i++) {
@@ -90,7 +90,7 @@ void sort_matrix_columns(int a[MAX_SIZE][MAX_SIZE], int n) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm sắp xếp các đường chéo chính và các đường chéo song song với đường chéo chính tăng 
 void sort_all_diagonals(int a[MAX_SIZE][MAX_SIZE], int n) {
