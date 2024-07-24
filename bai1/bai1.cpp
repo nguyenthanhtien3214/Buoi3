@@ -124,7 +124,7 @@ void saddle_points(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("\n");
 }
 
-// Hàm xuất dòng chỉ chứa số chẵn
+/// Hàm xuất dòng chỉ chứa số chẵn
 void even_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     printf("Cac dong chi chua so chan:\n");
     for (int i = 0; i < m; i++) {
@@ -140,7 +140,7 @@ void even_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
                 printf("%d ", a[i][j]);
             }
             printf("\n");
-        }
+        }//
     }
 }
 
