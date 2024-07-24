@@ -108,7 +108,7 @@ void sort_matrix_rows(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     }
 }//
 
-// Hàm sắp xếp ma trận theo yêu cầu bài 3.6
+/// Hàm sắp xếp ma trận theo yêu cầu bài 3.6
 void sort_matrix_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
     for (int j = 0; j < n; j++) {
         for (int i = 0; i < m - 1; i++) {
@@ -128,7 +128,7 @@ void sort_matrix_columns(int a[MAX_ROWS][MAX_COLS], int m, int n) {
         }
         printf("\n");
     }
-}
+}//
 
 // Hàm kiểm tra ma trận có giảm dần theo cột và dòng
 int is_decreasing_zigzag(int a[MAX_ROWS][MAX_COLS], int m, int n) {
